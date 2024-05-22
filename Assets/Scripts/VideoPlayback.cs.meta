@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ff51b2860d7ec4a4daa54c7e2548df04
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - correct_arrow: {fileID: 494797736697150764, guid: 966751bf90278b941ac85d780308d2a2, type: 3}
+  - wrong_arrow: {fileID: 8783250892175381616, guid: 2b5b738653671654aadecd956c36b163, type: 3}
+  - canvas: {fileID: 5044144356418673706, guid: f41b2ccd891b485439b22546b3a1a29c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
