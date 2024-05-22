@@ -72,6 +72,8 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
+*.mp4
+*.mp3
 *.userprefs
 *.pidb
 *.booproj
