@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: a79bb3c24639a8d4f8fa857033bd43c5
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 764775ca644185141be46d02f69298c8
+  - enabled: 1
+    path: Assets/Scenes/Landmark Test Tutorial.unity
+    guid: a26d43d2eb072bd4aa057716f33a365f
+  - enabled: 1
+    path: Assets/Scenes/Landmark Test.unity
+    guid: 4310181b7c9d20a4e8122a4c2255ea7c
+  - enabled: 0
+    path: Assets/Scenes/Route Mapping Test Tutorial.unity
+    guid: 95caf686a9d2d4049ab5947a5ada057b
+  - enabled: 1
     path: Assets/Scenes/Route Mapping Tutorial.unity
     guid: 01e5ed7e05aacd24f8877fb0c95ddfad
+  - enabled: 1
+    path: Assets/Scenes/Route Mapping Test.unity
+    guid: 4b86fdc7e56d2814d8394d400e027614
   m_configObjects: {}

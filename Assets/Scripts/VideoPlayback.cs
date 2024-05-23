@@ -62,6 +62,9 @@ public class VideoPlayback : MonoBehaviour
         {
             gameobjects[i].transform.SetParent(GameObject.FindAnyObjectByType<Canvas>().transform,false);
         }
+
+
+        DataCollection.final_intersection =false;
         finish_audio.Play();
         StartCoroutine(FinishWait());
     }

@@ -145,10 +145,11 @@ public class DataCollection : MonoBehaviour
         intersection_end = Time.time;
         intersection_total = intersection_end - intersection_start;
         sw = File.AppendText(path);
-        routemapping_total += intersection_total;
-        sw.Write("," + intersection_total); 
-        sw.Write("," + intersection_accuracy); 
+       
+        sw.Write(","+ intersection_total+","+intersection_accuracy); 
+        //sw.Write("," + intersection_accuracy); 
         sw.Close();
+        routemapping_total += intersection_total;
         intersection_accuracy = 0;
         if (final_intersection)
         {
