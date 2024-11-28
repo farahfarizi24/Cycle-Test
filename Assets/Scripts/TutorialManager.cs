@@ -29,11 +29,84 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("IsEn");
+            ChangeLanguageToEnglish();
         }
     }
 
 
+    public void ChangeLanguageToEnglish()
+    {
+        //change the text to german
+        Scene currentScene = SceneManager.GetActiveScene();
+        switch (currentScene.name)
+        {
+            case "Tutorial":
+                InstructionText.text = "You will now watch a video of a bike rider. We will ask you to remember which way the bike went and what you saw along the way."
+                ;
+                StartInstructionText.text = "Press the green START button when you are ready to start.";
+                Debug.Log("Triggered");
+                GermanAudioSource.clip = GermanClip;
+                Debug.Log("GermanIsSelected");
+                GermanAudioSource.Play();
+                ButtonFinish.SetActive(false);
+                MakeUnnecessaryNull();
+                break;
+
+            case "Landmark Test Tutorial":
+
+                InstructionText.text = "You will now see some pictures. Click only on the things that you remember seeing along the way during the ride. ";
+                StartInstructionText = null;
+                Debug.Log("Triggered");
+                GermanAudioSource.clip = GermanClip;
+                Debug.Log("GermanIsSelected");
+                GermanAudioSource.Play();
+                MakeUnnecessaryNull();
+
+                break;
+            case "Landmark Test":
+
+                InstructionText.text = "What did you see along the way during the ride? Press the green START button when you are ready to start.";
+                StartInstructionText = null;
+                Debug.Log("Triggered");
+                GermanAudioSource.clip = GermanClip;
+                Debug.Log("GermanIsSelected");
+                GermanAudioSource.Play();
+                MakeUnnecessaryNull();
+                break;
+            case "Route Mapping Tutorial":
+
+
+                InstructionText.text = "Great! You will now see the video again. When the video stops choose which way the bike went by clicking the correct arrow as quickly as possible.";
+                StartInstructionText = null;
+                Debug.Log("Triggered");
+                GermanAudioSource.clip = GermanClip;
+                Debug.Log("GermanIsSelected");
+                GermanAudioSource.Play();
+                MakeUnnecessaryNull();
+                break;
+
+
+            case "Route Mapping Test":
+
+                //Thanks method
+                InstructionText.text = "Finish";
+                StartInstructionText = null;
+                Debug.Log("Triggered");
+                //Thanks audio;
+                GermanAudioSource.clip = GermanClip;
+                Debug.Log("GermanIsSelected");
+                //GermanAudioSource.Play();
+                DirectionGermanAudioSource.clip = DirectionGermanClip;
+                WrongAnswerGermanAudioSource.clip = WrongAnswerGermanClip;
+                CorrectAnswerGermanAudioSource.clip = CorrectAnswerGermanClip;
+
+
+
+                break;
+
+
+        }
+    }
     public void ChangeLanguageToGerman() 
     
     

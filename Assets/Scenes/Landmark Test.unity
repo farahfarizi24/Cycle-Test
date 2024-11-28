@@ -1812,6 +1812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ffedecb8c10004e8992371ab15efe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  intersection_start: 0
   RefAddress: 
 --- !u!114 &76036520
 MonoBehaviour:
@@ -8573,7 +8574,7 @@ MonoBehaviour:
   InstructionText: {fileID: 316609109}
   StartInstructionText: {fileID: 0}
   GermanAudioSource: {fileID: 708350353}
-  GermanClip: {fileID: 8300000, guid: 934567794bbc1e544ac41674f34cb724, type: 3}
+  GermanClip: {fileID: 8300000, guid: 20930cab4cea60a40a09a462a01e367c, type: 3}
   DirectionGermanAudioSource: {fileID: 0}
   DirectionGermanClip: {fileID: 0}
   WrongAnswerGermanAudioSource: {fileID: 0}
@@ -11586,7 +11587,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7fe345fc6fb31e645b4c28bba79c3e59, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7a0f0ac72c7d9e54791f0ece38d5ac92, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -12385,7 +12386,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Weiter
+  m_text: Finish
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28346,7 +28347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Zur\xFCck"
+  m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

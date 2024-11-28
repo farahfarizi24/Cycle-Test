@@ -920,13 +920,14 @@ MonoBehaviour:
   InstructionText: {fileID: 1834606349}
   StartInstructionText: {fileID: 0}
   GermanAudioSource: {fileID: 1776709273}
-  GermanClip: {fileID: 8300000, guid: 32420ecc7cdafeb40b5b2a740a813214, type: 3}
+  GermanClip: {fileID: 8300000, guid: 7a0f0ac72c7d9e54791f0ece38d5ac92, type: 3}
   DirectionGermanAudioSource: {fileID: 0}
   DirectionGermanClip: {fileID: 0}
   WrongAnswerGermanAudioSource: {fileID: 0}
   WrongAnswerGermanClip: {fileID: 0}
   CorrectAnswerGermanAudioSource: {fileID: 0}
   CorrectAnswerGermanClip: {fileID: 0}
+  ButtonFinish: {fileID: 0}
 --- !u!1 &1642317765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1027,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 15be5a104c63bb5458333ea5a6f5a7f8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7a0f0ac72c7d9e54791f0ece38d5ac92, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1434,6 +1435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ffedecb8c10004e8992371ab15efe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  intersection_start: 0
+  RefAddress: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -161,7 +161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b3a1cbd3a732de8428fab36e6815277f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2597ebbf80d66740a550da83bdeb7a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -457,8 +457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vielen Dank f\xFCr deine Teilnahme, du kannst dem Team jetzt mitteilen,
-    dass du fertig bist."
+  m_text: Awesome. Thank you for participating. This task is finished now.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -956,7 +955,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7f67234b5cc098a499748906b4b13b7f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dc22881153634fd409cae6b4e73af5fc, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1084,7 +1083,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fcc9fa62085d8da4792b7b5008e53cbf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 92494956972ad424cb0de9a678bf5470, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1709,13 +1708,13 @@ MonoBehaviour:
   InstructionText: {fileID: 1974498143}
   StartInstructionText: {fileID: 0}
   GermanAudioSource: {fileID: 550807403}
-  GermanClip: {fileID: 8300000, guid: 9e734305f75f3904eb7e190888092897, type: 3}
+  GermanClip: {fileID: 8300000, guid: d583805c3c0dd58428d496b9c1e7b155, type: 3}
   DirectionGermanAudioSource: {fileID: 1267708625}
-  DirectionGermanClip: {fileID: 8300000, guid: 81175ee367a6c374284a991f7c630242, type: 3}
+  DirectionGermanClip: {fileID: 8300000, guid: cebd26f64f980124684c79ec492b6751, type: 3}
   WrongAnswerGermanAudioSource: {fileID: 611714445}
-  WrongAnswerGermanClip: {fileID: 8300000, guid: ae2cea0658a38cc478290b9f422630e2, type: 3}
+  WrongAnswerGermanClip: {fileID: 8300000, guid: dc22881153634fd409cae6b4e73af5fc, type: 3}
   CorrectAnswerGermanAudioSource: {fileID: 650890546}
-  CorrectAnswerGermanClip: {fileID: 8300000, guid: 8e0235af3ae2691499a4793c1f3dc06b, type: 3}
+  CorrectAnswerGermanClip: {fileID: 8300000, guid: 92494956972ad424cb0de9a678bf5470, type: 3}
   ButtonFinish: {fileID: 0}
 --- !u!4 &770622064
 Transform:
@@ -1858,7 +1857,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 80d88d7be012e1443a788ac857716859, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cebd26f64f980124684c79ec492b6751, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2203,7 +2202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e7eda2ad8f3973245a6e038bffa9a8c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 015c9b87cc30a764985de8797cd3c6d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
