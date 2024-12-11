@@ -12,7 +12,7 @@ public class LanguageScript : MonoBehaviour
     {
         isEnglish = false;
         Debug.Log("Is german!");
-        Language.text = "Deutschland";
+        Language.text = "Deutsch";
     }
     public void SetEnglishLanguage()
     {

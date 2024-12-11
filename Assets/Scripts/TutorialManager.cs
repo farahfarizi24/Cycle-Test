@@ -54,8 +54,9 @@ public class TutorialManager : MonoBehaviour
 
             case "Landmark Test Tutorial":
 
-                InstructionText.text = "You will now see some pictures. Click only on the things that you remember seeing along the way during the ride. ";
-                StartInstructionText = null;
+                InstructionText.text = "You will now see some pictures. Click only on the things that you remember seeing along the way during the ride. "
+                    ;
+                StartInstructionText.text = "Press the green START button when you are ready to start.";
                 Debug.Log("Triggered");
                 GermanAudioSource.clip = GermanClip;
                 Debug.Log("GermanIsSelected");
@@ -65,7 +66,7 @@ public class TutorialManager : MonoBehaviour
                 break;
             case "Landmark Test":
 
-                InstructionText.text = "What did you see along the way during the ride? Press the green START button when you are ready to start.";
+                InstructionText.text = "What did you see along the way during the ride?";
                 StartInstructionText = null;
                 Debug.Log("Triggered");
                 GermanAudioSource.clip = GermanClip;
