@@ -8574,7 +8574,7 @@ MonoBehaviour:
   InstructionText: {fileID: 316609109}
   StartInstructionText: {fileID: 0}
   GermanAudioSource: {fileID: 708350353}
-  GermanClip: {fileID: 8300000, guid: 20930cab4cea60a40a09a462a01e367c, type: 3}
+  GermanClip: {fileID: 8300000, guid: d811d0e70ebd04b44b6c8bb89fad3442, type: 3}
   DirectionGermanAudioSource: {fileID: 0}
   DirectionGermanClip: {fileID: 0}
   WrongAnswerGermanAudioSource: {fileID: 0}
@@ -11587,7 +11587,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 20930cab4cea60a40a09a462a01e367c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d811d0e70ebd04b44b6c8bb89fad3442, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

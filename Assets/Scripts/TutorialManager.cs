@@ -56,6 +56,7 @@ public class TutorialManager : MonoBehaviour
 
                 InstructionText.text = "You will now see some pictures. Click only on the things that you remember seeing along the way during the ride. "
                     ;
+                StartInstructionText.gameObject.SetActive(true);
                 StartInstructionText.text = "Press the green START button when you are ready to start.";
                 Debug.Log("Triggered");
                 GermanAudioSource.clip = GermanClip;
