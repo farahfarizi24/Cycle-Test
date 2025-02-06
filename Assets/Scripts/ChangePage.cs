@@ -135,7 +135,8 @@ public class ChangePage : MonoBehaviour
                 SetObjectParent(newWrongLandmarks[0]);
                 SetObjectParent(newWrongLandmarks[1]);
                 SetObjectParent(next_button);
-                SetObjectParent(back_button);
+                back_button.gameObject.transform.SetParent(null);
+                //SetObjectParent(back_button);
                 break;
 
 
