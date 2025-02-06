@@ -1,6 +1,6 @@
 # Route-recall + Landmarks Cycle Test
 
-An Android application designed and developed to assess a user's ability to recall routes after watching a video of a bicycle ride. There are two language modes: English and German. The evaluation consists of two tasks: the Landmark Test and the Route Test.
+An Android application designed and developed to assess a user's ability to recall routes after watching a video of a bicycle ride. There are two language modes: English and German. Application stores user performance data in a CSV file that can be accessed from the internal folder of the device. The evaluation consists of two tasks: the Landmark Test and the Route Test.
 
 * **Landmark Test**, the user must select from a range of images the landmarks they encountered in the video. 
 * **Route-recall Test**, the video is replayed, and the user must choose the correct turns taken by the cyclist.
