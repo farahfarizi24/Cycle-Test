@@ -72,8 +72,6 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
-*.mp4
-*.mp3
 *.userprefs
 *.pidb
 *.booproj
@@ -85,10 +83,6 @@ ExportedObj/
 *.obj
 *.tgz
 *.fbx
-*.jpg
-*.png
-**/*.jpg
-**/*.png
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
